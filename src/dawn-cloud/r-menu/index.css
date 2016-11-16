@@ -1,0 +1,27 @@
+.menu{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+.menu .items{
+    line-height: 30px;
+    width: 150px;
+    border: 1px solid #cccccc;
+    border-bottom: none;
+    text-indent: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    background: #ffffff;
+}
+.menu .items:hover{
+    background-color: #abcdef;
+    color: #ffffff;
+    border-color: #abcdef;
+}
+.menu .items:first-child{
+    border-radius: 8px 8px 0 0;
+}
+.menu .items:last-child{
+    border-bottom: 1px solid #cccccc;
+    border-radius: 0 0 8px 8px;
+}

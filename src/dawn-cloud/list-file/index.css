@@ -1,0 +1,33 @@
+.file-content{
+    position: relative;
+    width: 100%;
+}
+.file-content .file-list{
+    width: 100%;
+    overflow: hidden;
+}
+.file-content .file-list .file-item{
+    float: left;
+    width: 150px;
+    font-size: 20px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+}
+.file-content .file-list .file-item:hover,.file-content .file-list .file-item.active{
+    background-color: #57c5f7;
+}
+.file-content .file-list .file-item:hover .iconfont,.file-content .file-list .file-item.active .iconfont{
+    color: #fff;
+}
+.file-content .file-list .file-item .iconfont{
+    display: block;
+    font-size: 50px;
+    color:#ffd659;
+}
+.file-content .file-list .file-item{
+    margin-bottom: 5px;
+    font-size: 13px;
+}
